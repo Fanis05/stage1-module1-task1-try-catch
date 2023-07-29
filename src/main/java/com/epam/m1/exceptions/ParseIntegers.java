@@ -26,7 +26,7 @@ public class ParseIntegers {
                 // todo: complete it
                 sum += number;
             } catch (NumberFormatException e) {
-                justWords += next + " ";
+                justWords += " " + next;
             }
 
         }
